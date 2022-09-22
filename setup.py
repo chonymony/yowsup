@@ -16,7 +16,7 @@ else:
     try:
         import readline
     except ImportError:
-        deps.append('readline')
+        import pyreadline as readline
 
 setup(
     name='yowsup',
